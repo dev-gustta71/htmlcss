@@ -1,0 +1,111 @@
+body{
+    background-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.hero {
+    padding-top: 1px;
+    background-image: url(../imagens/bg-4.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.hero nav ul{
+    text-align: right;
+    margin: 40px 20px 0 0;
+}
+
+.hero nav li{
+    display: inline-block;
+    margin-left: 10px;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.hero nav a{
+    background-color: rgba(0,0,0,0.2);
+    padding: 15px;
+    text-decoration: none;
+    border: 2px solid white;
+}
+
+.hero nav a:hover {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.hero-content{
+    width: 80%;
+    margin: 200px auto 20px;
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 55px;
+    text-shadow: 8px 2px 2px black;
+}
+
+.hero-content p {
+    background-color: rgba(0,0,0,0.5);
+    padding: 15px;
+    display: inline-block;
+    border-bottom: 2px solid white;
+
+}
+
+main {
+    width: 90%;
+    max-width: 860px;
+    margin: auto;
+}
+
+article{
+    background-color: white;
+    padding: 16px;
+    margin: 32px 0;
+
+}
+
+article h2{
+    background-color: #d8d1d1;
+    border-bottom: 3px solid #7e7d7d;
+    padding:15px;
+ }
+
+ .btn{
+    display: block;
+    background-color: #7e7d7d;
+    padding: 12px;
+    text-decoration: none;
+    width: fit-content;
+    text-align: right;
+    margin-left: auto;
+    border-radius: 15px;
+}
+
+
+article a:hover{
+    background-color: black;
+    color: white;
+
+ }
+
+ article a:visited{
+    font-weight: bold;
+ }
+
+ 
+
+ .rodape{
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 5px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+ }
